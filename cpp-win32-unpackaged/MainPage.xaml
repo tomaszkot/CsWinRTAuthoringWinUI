@@ -1,0 +1,23 @@
+﻿<!-- Copyright (c) Microsoft Corporation.
+ Licensed under the MIT License. -->
+<Page
+    x:Class="SimpleIslandApp.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:SimpleIslandApp"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:custom="using:WinUIComponentCs"
+    mc:Ignorable="d"
+    
+    >
+        <StackPanel Orientation="Horizontal" MaxHeight="50">
+            <TextBlock>First Name:</TextBlock>
+            <TextBox Name="firstName" />
+
+        
+        <!--<custom:NameReporter x:Name="mNameReporter" ></custom:NameReporter>-->
+        <!--<custom:UserControl1 x:Name="mNameReporter" ></custom:UserControl1>-->
+    </StackPanel>
+
+</Page>
